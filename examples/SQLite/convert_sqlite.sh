@@ -14,7 +14,7 @@ CREATE TABLE player (id INT PRIMARY KEY, firstName, lastName, hand, birth, count
 .mode csv
 .import atp_players.csv player
 !
-echo "Players Imported"
+echo "Players Imported "
 
 for i in `ls atp_match*`
 do
